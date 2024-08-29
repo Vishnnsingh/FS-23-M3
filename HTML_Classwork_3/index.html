@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Test 3 - HTML </title>
+</head>
+<body>
+    <!-- for the lining -->
+    <fieldset>
+        <!-- for caption purpose -->
+      <legend>Personal Details</legend>
+      <form action="https://google.com" autocomplete="on">
+        <!-- for input field -->
+        <label for="fname">Firstname </label>
+        <input type="text" name="fname" id="" required/>
+        <br /><br />
+        
+        <label for="mname">Middlename </label>
+        <input type="text" name="mname" id="" />
+        <br /><br />
+
+        <label for="lname">Lastname </label>
+        <input type="text" name="lname" id="" />
+        <br /><br />
+
+        <label for="course">Course :</label>
+        <select name="course" id="">
+            <option value="Course">Course</option>  
+            <option value="BCA">BCA</option>  
+            <option value="BBA">BBA</option>  
+            <option value="B.Tech">B.Tech</option>  
+            <option value="MBA">MBA</option>  
+            <option value="MCA">MCA</option>  
+            <option value="M.Tech">M.Tech</option>  
+        </select>
+        <br /><br />
+
+        <label for="gender">Gender: </label>
+        <br />
+        <input type="radio" name="gender" id="" value="Male" />
+        <label for="male">Male</label>
+        <br />
+        <input type="radio" name="gender" id="" value="Female" />
+        <label for="female">Female</label>
+        <br />
+        <input type="radio" name="gender" id="" value="Other" />
+        <label for="Other">Other</label>
+        <br /><br />
+        <label for="dob">DOB:- </label>
+        <!-- <input type="date" name="dob" id=""> -->
+        <input type="datetime-local" name="dob" id="" />
+        <br>
+
+        <label for="phoneNumber">Phone</label>
+        <input
+          type="text"
+          name="phoneNumber"
+          id=""
+          placeholder="+91"
+          size="3"
+          disabled
+        />
+        <input type="tel" name="phoneNumber" id="" size="10" maxlength="10"/>
+        <br /><br />
+
+        <label for="address">Address</label><br />
+        <textarea name="address" id="" rows="5" cols="80"></textarea>
+        <br /><br />
+
+        <label for="Email">Email: </label>
+        <input type="email" name="Email" id="" required/><br /><br />
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="" required/><br /><br />
+
+        <label for="Repassword">Re-type password: </label>
+        <input type="password" name="Repassword" id="" required/><br /><br />
+
+        <input type="checkbox" name="terms&conditions" id="" />
+        <label for="terms&conditions">Agree to terms and conditions</label
+        >
+        
+        <br /><br />
+
+        <label for="chooseFile">Choose File</label>
+        <input type="file" name="chooseFile" id="" required/><br /><br />
+
+        <label for="chooseColor">Choose Color </label>
+        <input type="color" name="chooseColor" id="" /><br /><br />
+
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Submit" />
+      </form>
+    </fieldset>
+</body>
+</html>
